@@ -1,0 +1,23 @@
+<%= form_for @changeset, @action, fn f -> %>
+  <%= if @changeset.action do %>
+    <div class="alert alert-danger">
+      <p>Oops, something went wrong! Please check the errors below.</p>
+    </div>
+  <% end %>
+
+  <%= label f, :uid %>
+  <%= number_input f, :uid %>
+  <%= error_tag f, :uid %>
+
+  <%= label f, :name %>
+  <%= text_input f, :name %>
+  <%= error_tag f, :name %>
+
+  <%= label f, :beer_capacity %>
+  <%= number_input f, :beer_capacity %>
+  <%= error_tag f, :beer_capacity %>
+
+  <div>
+    <%= submit "Save" %>
+  </div>
+<% end %>

@@ -1,0 +1,14 @@
+defmodule Beer.Repo.Migrations.CreateUsers do
+  use Ecto.Migration
+
+  def change do
+    create table(:users) do
+      add :uid, :integer
+      add :name, :string
+      add :beer_capacity, :integer
+
+      timestamps()
+    end
+
+  end
+end
