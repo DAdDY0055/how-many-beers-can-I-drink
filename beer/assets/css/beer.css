@@ -1,0 +1,70 @@
+body{
+    background-color:skyblue;
+}
+
+.cup{
+    margin:60px auto 0;
+    width:150px;
+    height:250px;
+    box-sizing: border-box;
+    border: 10px solid whitesmoke;
+    border-radius:5px;
+    border-top:none;
+}
+
+.drink{
+    margin:0 auto;
+    width:130px;
+    height:220px;
+    background-color:#F8F753;
+    border-radius:3px;
+    position:relative;
+    top:20px;
+}
+
+.bubbles{
+    width:130px;
+    height:55px;
+
+    display:flex;
+    align-items:flex-end;
+}
+
+.bubble{
+    margin:0 auto;
+    width:7px;
+    height:7px;
+    background-color: #FFFFFF;
+    opacity:0.8;
+    border-radius:50%;
+
+    animation-name:move;
+    animation-timing-function:ease-out;
+    animation-iteration-count:infinite;
+}
+
+.bubble-1{animation-duration:0.8s;}
+.bubble-2{animation-duration:1.0s;}
+.bubble-3{animation-duration:1.2s;}
+.bubble-4{animation-duration:1.4s;}
+.bubble-5{animation-duration:1.6s;}
+
+@keyframes move{
+    from{transform:none;}
+    to{transform:translateY(-40px);}
+}
+
+/* .straw{
+    width:20px;
+    height:300px;
+    background-color:tomato;
+    border-radius:3px;
+    opacity:0.8;
+
+    position:relative;
+    top:-275px;
+    left:75px;
+
+    transform:rotate(20deg);
+} */
+
