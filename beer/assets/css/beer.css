@@ -10,7 +10,6 @@ body{
     border: 10px solid whitesmoke;
     border-radius:5px;
     border-top:none;
-	position: relative;
 }
 
 .drink{
@@ -28,8 +27,8 @@ body{
     background-color:#F8F753;
     display:flex;
     align-items:flex-end;
-	position: absolute;
-    bottom: 0;
+	/* position: absolute;
+    bottom: 0; */
 }
 
 .bubble{
