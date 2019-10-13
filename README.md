@@ -10,17 +10,22 @@ https://supporterzcolab.com/event/937/?utm_campaign=event_message_to_selected_pa
 https://how-many-beers-can-i-drink.herokuapp.com/
 
 ## 使い方
-- UPのボタンを押すことで飲んだビールの量を増やせます
-- DOWを押すと飲んだビールの量を増やせます
+- UPのボタンを押すことで飲んだビールの量を増やせます
+- DOWを押すと飲んだビールの量を増やせます
 
 (注意)
 - 飲んだビールは上から増えます
-- カウントは無限にされるので、押しすぎるととんでもないことになります
+
+![image](https://user-images.githubusercontent.com/38724804/66711398-d9cde380-edc5-11e9-9a33-8af7c92ae4ce.png)
+
+- カウントは無限にされるので、押しすぎるととんでもないことになります
+
+![image (1)](https://user-images.githubusercontent.com/38724804/66711399-dcc8d400-edc5-11e9-876a-6440a0899c88.png)
 
 ## 利用したもの
 
 - Vue.js
-- Elixir/Phoenix
+- Elixir/Phoenix
 - CSSは以下を参考
   - 【CSSアニメーション】HTMLとCSSだけでコーラ（炭酸ジュワジュワ～）を作ってみた
 https://qiita.com/michimichix521/items/a8a3f706bc1dac751188
